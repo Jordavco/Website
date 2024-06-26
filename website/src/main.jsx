@@ -7,7 +7,11 @@ import { MantineProvider } from "@mantine/core";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <MantineProvider>
+    <MantineProvider
+      theme={{
+        fontFamily: "Roboto, sans-serif",
+      }}
+    >
       <App />
     </MantineProvider>
   </React.StrictMode>
